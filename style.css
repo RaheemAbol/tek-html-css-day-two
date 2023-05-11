@@ -2,35 +2,14 @@ body {
   background-color: aqua;
 }
 
-.para {
-  font-size: 20px;
+p:first-child {
+  background: navy;
 }
 
-.para:hover {
-  background-color: white;
+p:last-child {
+  background: lightgreen;
 }
 
-#random-para {
-  color: yellow;
-}
-
-#random-para:hover {
-  color: red;
-}
-
-/* unvisited link */
-a:link {
-  color: green;
-}
-/* visited link */
-a:visited {
-  color: red;
-}
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-/* selected link */
-a:active {
-  color: blue;
+li:nth-child(6) {
+  background: lightgreen;
 }
